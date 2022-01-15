@@ -38,4 +38,5 @@ class UserRetrieve(RetrieveUpdateDestroyAPIView):
 
 
 class UserRegister(CreateAPIView):
+    permission_classes = []
     serializer_class = UserSerializer
